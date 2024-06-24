@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clone-Repo') {
 	    	steps {
-	        	git url: 'https://github.com/Tharun4153/gamukart.git',
+	        	git url: 'https://github.com/Tharun4153/gamutkart.git',
 				branch: 'master'
 	    	}
         }
